@@ -1,0 +1,11 @@
+# My Custom Blocklist
+# Last updated: 2025-08-03
+
+# Social Media Trackers
+some-tracker.facebook.com
+analytics.twitter.com
+
+# Annoying Ad Networks
+doubleclick.net
+ads.annoying-website.com
+another-ad-server.net
