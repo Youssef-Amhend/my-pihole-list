@@ -12,6 +12,9 @@ facebook.net
 fb.com
 fb.me
 instagram.com
+i.instagram.com
+graph.instagram.com
+instagram.ftng2-1.fna.fbcdn.net
 threads.net
 # Content Delivery Networks (CDNs) & APIs - CRITICAL to block
 cdninstagram.com
