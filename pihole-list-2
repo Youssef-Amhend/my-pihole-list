@@ -1,0 +1,101 @@
+# ===============================================================
+# == CUSTOM SOCIAL MEDIA BLOCKLIST (Pi-hole)
+# == Blocks: YouTube, Instagram, Facebook, X, TikTok, etc.
+# == Allows: WhatsApp, LinkedIn, Messenger (partially)
+# == Last Updated: 2025-08-03
+# ===============================================================
+
+# == Meta (Facebook & Instagram) ==
+# Core Domains
+facebook.com
+facebook.net
+fb.com
+fb.me
+instagram.com
+i.instagram.com
+graph.instagram.com
+instagram.ftng2-1.fna.fbcdn.net
+threads.net
+# Content Delivery Networks (CDNs) & APIs - CRITICAL to block
+cdninstagram.com
+fbcdn.net
+fbsbx.com
+xx.fbcdn.net
+scontent.cdninstagram.com
+graph.facebook.com
+connect.facebook.net
+
+# == YouTube & Google Video ==
+# NOTE: This will block YouTube videos from playing anywhere.
+# Core Domains
+youtube.com
+youtube-nocookie.com
+youtu.be
+# Video Streaming & Content - CRITICAL to block
+googlevideo.com
+ytimg.com
+ytimg.l.google.com
+i.ytimg.com
+yt3.ggpht.com
+youtubei.googleapis.com
+googlesyndication.com
+
+# == X (formerly Twitter) ==
+# Core Domains
+twitter.com
+x.com
+# URL Shortener & Content
+t.co
+twimg.com
+pbs.twimg.com
+abs.twimg.com
+
+# == TikTok ==
+# Core Domains
+tiktok.com
+tiktokv.com
+tiktokcdn.com
+tiktokcdn-us.com
+musical.ly
+# CDNs & Data
+p16-tiktokcdn-com.akamaized.net
+ibytedtos.com
+byteoversea.com
+muscdn.com
+
+# == Snapchat ==
+# Core Domains
+snapchat.com
+# CDNs & Services
+sc-cdn.net
+snap-dev.com
+app-analytics.snapchat.com
+feelinsonice.appspot.com
+
+# == Pinterest ==
+# Core Domains
+pinterest.com
+pinterest.ca
+pinterest.co.uk
+# CDNs
+pinimg.com
+s.pinimg.com
+
+# == Reddit ==
+# Core Domains
+reddit.com
+redd.it
+# CDNs & Media
+redditmedia.com
+redditstatic.com
+i.redd.it
+v.redd.it
+
+# == Discord ==
+# Core Domains
+discord.com
+discord.gg
+discordapp.com
+# CDNs & Media
+cdn.discordapp.com
+media.discordapp.net
